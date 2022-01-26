@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+img {
+  width: 30%;
+}
+.main {
+  text-align: center;
+  position: absolute;
+}
+#searchbar {
+  top: 40%;
+  width: 580px;
+  height: 30px;
+  border: 1px solid #cdcdcd;
+}
