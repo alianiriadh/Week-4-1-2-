@@ -11,10 +11,13 @@
     <div class="logo">
       <img src="https://www.creads.com/wp-content/uploads/2015/09/Google2013logo.svg.png" alt="" />
     </div>
-    <div class="main">
-      <input type="text" id="searchbar" /> <br />
-      <button>Recherche Google</button>
-      <button>J'ai de la chance</button>
-    </div>
+
+    <form action="https://www.google.com/search" method="get" id="formsearch">
+      <div class="searchbar"><input type="text" id="txtsearch" name="q" /> <br /></div>
+      <div class="btn">
+        <button id="btn1" type="submit">Google search</button>
+        <button id="btn2">J'ai de la chance</button>
+      </div>
+    </form>
   </body>
 </html>
